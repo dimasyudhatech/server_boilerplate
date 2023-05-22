@@ -1,0 +1,65 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "authenticationType": "oauth2",
+    "baseName": "infra",
+    "blueprints": [],
+    "buildTool": "gradle",
+    "cacheProvider": "no",
+    "clientFramework": "no",
+    "creationTimestamp": 1684319904026,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "dtoSuffix": "DTO",
+    "enableGradleEnterprise": false,
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": false,
+    "entitySuffix": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "7.9.3",
+    "jwtSecretKey": "OGNkMjE3YzYxM2MyNzNiMDBhZjE4NWYwZTQ4NDNmMDkwYjU2MTI2MjI1NzBhNzAyYTA5OGQ0ZDA1MjQ0Zjc4ZTQyOTRhMmIwOWUwZDE2N2QyMzViODZjNWVmZjlhNTRjMWU1NTU2YWM3ZjdmYjYzNzhkYWRiYzI2ZDdkNGRiZDE=",
+    "languages": ["en", "fr"],
+    "messageBroker": "kafka",
+    "microfrontend": true,
+    "microfrontends": [],
+    "nativeLanguage": "en",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-es-entity-reindexer",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-postgres-uuid",
+        "version": "0.0.6"
+      },
+      {
+        "name": "generator-jhipster-gql",
+        "version": "0.1.2"
+      },
+      {
+        "name": "generator-jhipster-kafka",
+        "version": "1.0.1"
+      },
+      {
+        "name": "generator-jhipster-aiggenerator",
+        "version": "0.0.1"
+      }
+    ],
+    "packageName": "tech.dimasyudha.infra",
+    "pages": [],
+    "prodDatabaseType": "postgresql",
+    "reactive": true,
+    "searchEngine": "elasticsearch",
+    "serverPort": "8081",
+    "serverSideOptions": ["searchEngine:elasticsearch", "messageBroker:kafka", "enableSwaggerCodegen:true"],
+    "serviceDiscoveryType": "consul",
+    "skipCheckLengthOfIdentifier": false,
+    "skipClient": true,
+    "skipFakeData": false,
+    "skipUserManagement": true,
+    "testFrameworks": ["cypress", "gatling", "cucumber"],
+    "websocket": false,
+    "withAdminUi": false
+  }
+}
